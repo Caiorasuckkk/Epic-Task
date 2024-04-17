@@ -1,1 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Assets/css/style.css">
+    <title>EpicTask - Cadastro</title>
+</head>
+<body>
+  
+    <h1>Epic Task</h1>
+    <div id="Topo">
+        <label id="Topo">Cadastro</label>
+    </div>
 
+    <section id="lista-de-tarefas">
+      
+        <form action="">
+            
+    
+            <div class="nes-field">
+                <label for="name">Nome</label>
+                <input type="text" id="name" class="nes-input">
+                <span id="name-error" class="nes-text is-error"></span>
+            </div>
+            <div>
+                <label for="email">E-mail</label>
+                <textarea id="email" class="nes-textarea"></textarea>
+                <span id="email" class="nes-text is-error"></span>
+            </div>
+        
+            <div>
+               
+                <label>Maior de 18 anos?</label>
+                <label>
+                    <input type="radio" class="nes-radio" name="answer" checked />
+                    <span>Sim</span>
+                </label>
+        
+                <label>
+                    <input type="radio" class="nes-radio" name="answer" />
+                    <span>Não</span>
+                </label>
+            </div>
+        
+            <div class="botoes">
+                <a class="nes-btn" href="/">cancelar</a>
+                <button id="botao-cadastrar" type="button" class="nes-btn is-primary">
+                    cadastrar
+                </button>
+            </div>
+        </form>
+        
+    </section>
+    
+</body>
+</html>
