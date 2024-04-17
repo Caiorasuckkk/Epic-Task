@@ -1,0 +1,33 @@
+h2 {
+    text-align: center;
+}
+#lista-de-tarefas {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 15vh;
+
+    .botoes {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+h1{
+text-align: center;
+}
+
+
+
+
+
+#Topo{
+text-align: center;
+margin-top: 40px;
+font-size: 25px;
+
+
+
+}
+
