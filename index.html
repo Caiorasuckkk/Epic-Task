@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./Assets/css/style.css">
+    <script src="Assets\js\index.js" defer></script>
     <title>EpicTask - Cadastro</title>
 </head>
 <body>
@@ -30,26 +31,25 @@
             <div>
                 <label for="email">E-mail</label>
                 <textarea id="email" class="nes-textarea"></textarea>
-                <span id="email" class="nes-text is-error"></span>
+                <span id="email-error" class="nes-text is-error"></span>
             </div>
         
             <div>
-               
                 <label>Maior de 18 anos?</label>
                 <label>
-                    <input type="radio" class="nes-radio" name="answer" checked />
+                    <input type="radio" class="nes-radio" name="answer" id="sim" checked />
                     <span>Sim</span>
                 </label>
-        
+            
                 <label>
-                    <input type="radio" class="nes-radio" name="answer" />
+                    <input type="radio" class="nes-radio" name="answer" id="nao" />
                     <span>Não</span>
                 </label>
             </div>
         
             <div class="botoes">
-                <a class="nes-btn" href="">cancelar</a>
-                <a id="botao-cadastrar" type="button"  class="nes-btn is-primary" href="Menu.html">
+                <a class="nes-btn" href="Menu.html">cancelar</a>
+                <a id="botao-cadastrar" type="button"  class="nes-btn is-primary">
                     cadastrar
                 </a>
             </div>
