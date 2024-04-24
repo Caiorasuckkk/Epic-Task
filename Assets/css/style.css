@@ -27,6 +27,37 @@ text-align: center;
 margin-top: 40px;
 font-size: 25px;
 
+}
+
+
+
+
+header {
+    height: 40vh;
+    display: flex;
+    justify-content: top; 
+    align-items: right;
+    
+}
+
+header::before{
+    content: "";
+    background-color: #564dcc;
+    background-size: contain;
+    height: 16vh;
+    width: 100vw;
+    display: block;
+    position: absolute;
+    z-index: -10;
+    text-align: right;
+    
+   
+
+}
+#cabeca-txt{
+margin-top: 15px;
+margin-left: 128vh;
+
 
 
 }
